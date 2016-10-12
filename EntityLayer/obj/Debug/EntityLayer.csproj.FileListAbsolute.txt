@@ -1,0 +1,5 @@
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\EntityLayer\bin\Debug\EntityLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\EntityLayer\bin\Debug\EntityLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\EntityLayer\obj\Debug\EntityLayer.csprojResolveAssemblyReference.cache
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\EntityLayer\obj\Debug\EntityLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\EntityLayer\obj\Debug\EntityLayer.pdb

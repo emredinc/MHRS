@@ -1,0 +1,7 @@
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\bin\Debug\FacadeLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\bin\Debug\FacadeLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\bin\Debug\EntityLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\bin\Debug\EntityLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\obj\Debug\FacadeLayer.csprojResolveAssemblyReference.cache
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\obj\Debug\FacadeLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\FacadeLayer\obj\Debug\FacadeLayer.pdb

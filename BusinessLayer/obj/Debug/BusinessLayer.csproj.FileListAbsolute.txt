@@ -1,0 +1,9 @@
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\BusinessLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\BusinessLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\EntityLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\FacadeLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\EntityLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\bin\Debug\FacadeLayer.pdb
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\emre\documents\visual studio 2013\Projects\MHRS\BusinessLayer\obj\Debug\BusinessLayer.pdb

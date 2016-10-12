@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FacadeLayer
+{
+  static  class Erisim
+    {
+        private static SqlConnection baglanti = new SqlConnection(ConfigurationManager.ConnectionStrings["HastaneRandevu"].ConnectionString);
+
+        public static SqlConnection Baglanti
+        {
+            get { return baglanti; }
+            set { baglanti = value; }
+        }
+        public static bool ExecuteNonQuery(SqlCommand komut)
+        {
+            try
+            {
+                if (komut.Connection.State != ConnectionState.Open)
+                    komut.Connection.Open();
+                return komut.ExecuteNonQuery() > 0;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                if (komut.Connection.State != ConnectionState.Closed)
+
+                    komut.Connection.Close();
+            }
+        }
+        public static DataTable Listele(string procedureName)
+        {
+            SqlDataAdapter adapt = new SqlDataAdapter(procedureName, Erisim.Baglanti);
+            adapt.SelectCommand.CommandType = CommandType.StoredProcedure;
+            DataTable table = new DataTable();
+            adapt.Fill(table);
+            return table;
+        }
+        
+    }
+}
